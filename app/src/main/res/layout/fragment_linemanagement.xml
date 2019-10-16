@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:padding="@dimen/dp_2">
+
+        <EditText
+                android:id="@+id/linemanagement_fragment_Search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cycle_normal_shape"
+                android:drawableLeft="@drawable/icon_xlgl_search"
+                android:layout_toLeftOf="@+id/linemanagement_fragment_iv"
+                android:hint="请输入串口名称"
+                android:textSize="@dimen/dp_10"
+                android:padding="@dimen/dp_2"/>
+
+        <ImageView
+                android:id="@+id/linemanagement_fragment_iv"
+                android:layout_width="@dimen/dp_35"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/cycle_normal_shape"
+                android:padding="@dimen/dp_2"
+                android:src="@drawable/butt_xlgl_search"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/linemanagement_fragment_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear1"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginRight="@dimen/dp_5">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

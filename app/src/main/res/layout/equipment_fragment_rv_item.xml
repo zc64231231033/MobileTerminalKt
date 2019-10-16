@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_35">
+
+    <TextView
+        android:id="@+id/tex_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Button"
+        android:textColor="@color/minute_frozen_data_white2"
+        android:textSize="@dimen/dp_12" />
+
+    <TextView
+        android:id="@+id/tex_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Button"
+        android:textColor="@color/minute_frozen_data_color"
+        android:textSize="@dimen/dp_12" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_below="@+id/tex_title"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@color/minute_frozen_data_color_white" />
+</RelativeLayout>

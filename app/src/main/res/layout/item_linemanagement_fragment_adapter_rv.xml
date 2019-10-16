@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dp_8"
+        app:cardElevation="@dimen/dp_1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10">
+
+            <RelativeLayout
+                android:id="@+id/mainsite_item_rlayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_30">
+
+                <ImageView
+                    android:id="@+id/mainsite_item_iv"
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_xlgl_xlrwmc" />
+
+                <TextView
+                    android:id="@+id/mainsite_item_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/mainsite_item_iv"
+                    android:gravity="center"
+                    android:text="线路任务名称1"
+                    android:textSize="@dimen/dp_12" />
+
+                <Button
+                    android:id="@+id/type_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/dp_2"
+                    android:background="@drawable/linemanagement_fragment_adpter_item_focus_shape"
+                    android:text="运行中"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/minute_frozen_data_white2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relayout1"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/mainsite_item_rlayout"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/mainsite_item_left_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="线路名称:"
+                    android:textSize="@dimen/dp_12" />
+
+                <TextView
+                    android:id="@+id/mainsite_item_right_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:text="串口一"
+                    android:textColor="@color/home_bule"
+                    android:textSize="@dimen/dp_12" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relayout2"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/relayout1"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/mainsite_item_left_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="端         口:"
+                    android:textSize="@dimen/dp_12" />
+
+                <TextView
+                    android:id="@+id/mainsite_item_right_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="ttys1"
+                    android:textColor="@color/home_bule"
+                    android:textSize="@dimen/dp_12" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relayout3"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/relayout2"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/mainsite_item_left_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="规         约:"
+                    android:textSize="@dimen/dp_12" />
+
+                <TextView
+                    android:id="@+id/mainsite_item_right_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="645规约"
+                    android:textColor="@color/home_bule"
+                    android:textSize="@dimen/dp_12" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relayout4"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/relayout3"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/mainsite_item_left_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="参数模板:"
+                    android:textSize="@dimen/dp_12" />
+
+                <TextView
+                    android:id="@+id/mainsite_item_right_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="2400_8_E_1_L"
+                    android:textColor="@color/home_bule"
+                    android:textSize="@dimen/dp_12" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relayout5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_below="@+id/relayout4"
+                android:layout_marginTop="@dimen/dp_5"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/mainsite_item_btn1"
+                    android:layout_width="@dimen/dp_50"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/system_fragment_shape"
+                    android:gravity="center"
+                    android:text="通信"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_12" />
+
+                <Button
+                    android:id="@+id/mainsite_item_btn2"
+                    android:layout_width="@dimen/dp_50"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/mainsite_item_btn1"
+                    android:background="@drawable/system_fragment_shape"
+                    android:gravity="center"
+                    android:text="任务"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_12" />
+
+                <TextView
+                    android:id="@+id/linemanagement_fragment_adapter_item_below_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_toRightOf="@+id/mainsite_item_btn2"
+                    android:gravity="center"
+                    android:text="是否停用"
+                    android:textColor="@color/home_bule"
+                    android:textSize="@dimen/dp_12" />
+
+                <Button
+                    android:id="@+id/linemanagement_fragment_adapter_item_below_btn4"
+                    android:layout_width="@dimen/dp_50"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/linemanagement_fragment_adapter_item_below_tv3"
+                    android:background="@drawable/butt_xlgl_no"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_12" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

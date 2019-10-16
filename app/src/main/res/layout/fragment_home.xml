@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_1"
+            android:background="@color/home_bule"
+            app:tabBackground="@drawable/tablayout_background"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/red"
+            app:tabIndicatorHeight="0dp"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextAppearance="@style/TabLayoutTextStyle"
+            app:tabTextColor="@color/home_gray">
+
+        <!--//选中时游标的颜色-->
+        <!--app:tabIndicatorColor="@color/red"-->
+        <!--//选中时的字体颜色-->
+        <!--app:tabSelectedTextColor="@color/red"-->
+        <!--//未选中时的字体颜色-->
+        <!--app:tabTextColor="@color/gray">-->
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_10">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

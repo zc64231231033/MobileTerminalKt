@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.SplashActivity">
+
+    <ImageView
+            android:id="@+id/imgeView"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_xtcs_srmm_title"
+            android:background="@color/colorPrimary"/>
+</android.support.constraint.ConstraintLayout>
